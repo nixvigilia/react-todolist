@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useCallback } from "react";
-import { Tabs, Layout, Row, Col, Input, message } from "antd";
+import { Tabs, Layout, Row, Col, message } from "antd";
 import "./TodoList.css";
 import TodoTab from "./TodoTab";
 import TodoForm from "./TodoForm";
@@ -65,7 +65,7 @@ const TodoList = () => {
         <div className="todolist">
           <Row>
             <Col span={14} offset={5}>
-              <h1>Codebrains Todos</h1>
+              <h1>Todos</h1>
               <TodoForm onFormSubmit={handleFormSubmit} />
               <br />
               <Tabs defaultActiveKey="all">
