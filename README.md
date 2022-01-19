@@ -1,1 +1,1 @@
-TodoList App with Ruby on Rails and React 
+- TodoList App using Ruby on Rails API and React JS as frontend
